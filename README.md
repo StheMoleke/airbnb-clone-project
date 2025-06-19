@@ -127,3 +127,57 @@ A clear understanding of design specs ensures that what’s **designed is what g
 
 Each of these roles ensures **cross-functional success**, and together they simulate real-world teamwork in software development.
 
+---
+
+## 🧩 UI Component Patterns
+
+To maintain consistency and speed up development, the following UI components will be designed as reusable building blocks:
+
+---
+
+### 🧭 Navbar
+
+**Purpose**: Appears at the top of every page for navigation and access to key features.
+
+**Elements**:
+- Logo (linked to homepage)
+- Search bar
+- User profile icon / login/logout
+- Responsive hamburger menu (mobile)
+- Navigation links (Home, Browse, Favorites, Bookings)
+
+---
+
+### 🏘️ Property Card
+
+**Purpose**: Display property previews in the listings grid.
+
+**Elements**:
+- Property image thumbnail
+- Title and location
+- Price per night
+- Star rating and number of reviews
+- “Favorite” (heart) icon
+- Clickable to view more details
+
+---
+
+### 📥 Footer
+
+**Purpose**: Standard footer that provides information and links at the bottom of every page.
+
+**Elements**:
+- Company/about links
+- Social media icons
+- Contact information
+- Copyright
+
+---
+
+### 💡 Reusability Focus
+
+Each component will:
+- Be styled using a shared design system (colors, spacing, typography)
+- Use responsive design patterns
+- Be reusable across multiple pages
+- Be built as independent React components (or similar, depending on framework)
